@@ -1,0 +1,27 @@
+.search {
+    background-color: hsl(0, 0%, 100%);;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+
+    border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.search input {
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: hsl(0, 0%, 100%);;
+}
+
+@media (min-width: 767px) {
+    .search {
+        margin-bottom: 0;
+        width: 280px;
+    }
+
+}
